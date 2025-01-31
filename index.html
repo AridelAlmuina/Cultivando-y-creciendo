@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultivando Oportunidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cultivando Oportunidades, Sembrando Futuro</h1>
+        <nav>
+            <ul>
+                <li><a href="#registro">Registro</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#donaciones">Donaciones</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="registro">
+        <h2>Plataforma de Registro</h2>
+        <form>
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required>
+            
+            <label for="motivacion">Motivación para unirse:</label>
+            <textarea id="motivacion" name="motivacion" required></textarea>
+            
+            <button type="submit">Enviar Registro</button>
+        </form>
+    </section>
+    
+    <section id="noticias">
+        <h2>Actualizaciones y Noticias</h2>
+        <p>Próximamente, historias de éxito y avances del programa.</p>
+    </section>
+    
+    <section id="donaciones">
+        <h2>Donaciones en Línea</h2>
+        <p>Apoya nuestra causa con una donación:</p>
+        <button onclick="location.href='https://www.paypal.com'">Donar vía PayPal</button>
+    </section>
+    
+    <section id="galeria">
+        <h2>Galería Interactiva</h2>
+        <p>Fotos y videos de nuestros huertos y participantes.</p>
+    </section>
+    
+    <section id="ubicacion">
+        <h2>Mapa de Ubicación</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-98.000000!3d19.000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDAwJzAwLjAiTiA5OMKwMDAnMDAuMCJX!5e0!3m2!1ses!2smx!4v1646928742213!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Cultivando Oportunidades. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
